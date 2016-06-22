@@ -4,7 +4,7 @@
   "description": "wrap plane url with <a href=''></a>",
   "main": "lib/ahrefy.js",
   "scripts": {
-    "start": "webpack --progress --colors --watch"
+    "start": "nf start"
   },
   "author": "Hiroshi Ogawa",
   "license": "ISC",
@@ -13,6 +13,8 @@
     "babel": "^6.5.2",
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
+    "foreman": "^1.4.1",
+    "http-server": "^0.9.0",
     "webpack": "^1.13.1"
   }
 }

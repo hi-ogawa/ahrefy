@@ -19,12 +19,7 @@ $ npm install
 $ npm start
 ```
 
-(Manual) testing:
-
-```
-$ http-server .
-$ open http://127.0.0.1:8080/test/example.html # just visit example html
-```
+and visit http://127.0.0.1:8080/test/example.html.
 
 ### Reference
 
