@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div>
+      <ul>
+        <li>http://www.xxxx.com/yyyy/zzzz/</li>
+        <li><a href="http://this-is-already/link">this is already link</a></li>
+        <li>not link</li>
+      </ul>
+      <p>see this link (http://www.xxxx.com/yyyy/zzzz/)</p>
+      <p>from https://www.xxxx.com/yyyy/zzzz to</p>
+      <ul>
+        <li> nested list
+          <ul>
+            <li>list0: https://www.xxxx.com/yyyy/zzzz</li>
+            <li>list1: http://www.xxxx.com/yyyy/zzzz</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="/lib/ahrefy.js"></script>
+    <script type="text/javascript">
+      Ahrefy.traverse(document.getElementsByTagName('body')[0]);
+    </script>
+  </body>
+</html>
