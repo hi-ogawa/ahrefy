@@ -20,7 +20,7 @@ export function traverse(dom) {
       child.nodeName === 'A'      ||
       child.nodeName === 'PRE'
     ) {
-      return
+      continue;
     } else if (child.nodeName === '#text' && child.textContent.match(URL_REGEXP)) {
       convertToLink(child);
     } else {
