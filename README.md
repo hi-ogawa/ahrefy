@@ -6,7 +6,7 @@ Usage:
 
 
 ```
-<script type="text/javascript" src="https://cdn.rawgit.com/hi-ogawa/ahrefy/master/lib/ahrefy.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/hi-ogawa/ahrefy/0.1.0/lib/ahrefy.js"></script>
 <script type="text/javascript">
   Ahrefy.traverse(document.getElementsByTagName('body')[0]);
 </script>
