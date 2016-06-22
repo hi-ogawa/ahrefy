@@ -1,5 +1,7 @@
 ### Ahrefy
 
+Demo page: https://hi-ogawa.github.io/ahrefy/demo/example.html
+
 Usage:
 
 
