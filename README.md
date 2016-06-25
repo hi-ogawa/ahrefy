@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hi-ogawa/ahrefy.svg?branch=master)](https://travis-ci.org/hi-ogawa/ahrefy)
+
 ### Ahrefy
 
 Demo page: https://hi-ogawa.github.io/ahrefy/demo/example.html
