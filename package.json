@@ -4,6 +4,7 @@
   "description": "wrap plane url with <a href=''></a>",
   "main": "lib/ahrefy.js",
   "scripts": {
+    "build": "webpack --progress --colors --profile",
     "test": "karma start"
   },
   "author": "Hiroshi Ogawa",
