@@ -2,10 +2,11 @@ var webpackConfig = require('./webpack.config');
 
 module.exports = function (config) {
   config.set({
-    browsers: [ 'Chrome' ],
+    browsers: [ 'Chrome', 'PhantomJS' ],
     files: [ './src/ahrefy.spec.js' ],
     frameworks: [ 'jasmine' ],
     plugins: [
+      'karma-phantomjs-launcher',
       'karma-chrome-launcher',
       'karma-jasmine',
       'karma-webpack',

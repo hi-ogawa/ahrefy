@@ -5,7 +5,8 @@
   "main": "lib/ahrefy.js",
   "scripts": {
     "build": "webpack --progress --colors --profile",
-    "test": "karma start"
+    "test": "karma start",
+    "test:travis": "karma start --single-run --browsers PhantomJS"
   },
   "author": "Hiroshi Ogawa",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "karma-chrome-launcher": "^1.0.1",
     "karma-cli": "^1.0.0",
     "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
     "webpack": "^1.13.1"
