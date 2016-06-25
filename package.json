@@ -4,7 +4,6 @@
   "description": "wrap plane url with <a href=''></a>",
   "main": "lib/ahrefy.js",
   "scripts": {
-    "start": "nf start",
     "test": "karma start"
   },
   "author": "Hiroshi Ogawa",
@@ -14,9 +13,7 @@
     "babel": "^6.5.2",
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
-    "foreman": "^1.4.1",
     "html-loader": "^0.4.3",
-    "http-server": "^0.9.0",
     "jasmine-core": "^2.4.1",
     "karma": "^1.0.0",
     "karma-chrome-launcher": "^1.0.1",
